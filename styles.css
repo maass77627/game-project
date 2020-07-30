@@ -10,14 +10,14 @@
   /* Set gray background color and 100% height */
   .sidenav {
     padding-top: 20px;
-    background-color: #81c922;
+    background-color: #0d0e0d;
     height: 100%;
   }
   
   /* Set black background color, white text and some padding */
   footer {
-    background-color: rgb(66, 38, 168);
-    color: rgb(0, 246, 62);
+    background-color: rgb(201, 230, 36);
+    color: rgb(0, 246, 115);
     padding: 15px;
   }
   
@@ -33,4 +33,9 @@
   canvas {
     background-color: black;
     position: center;
+  }
+
+  button {
+    position: relative;
+
   }
