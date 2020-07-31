@@ -1,7 +1,7 @@
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #1e9b86;
+    background-color: #070707;
   }
   
   /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -16,8 +16,8 @@
   
   /* Set black background color, white text and some padding */
   footer {
-    background-color: rgb(201, 230, 36);
-    color: rgb(0, 246, 115);
+    background-color: rgb(7, 7, 7);
+    color: rgb(0, 86, 246);
     padding: 15px;
   }
   
@@ -38,4 +38,36 @@
   button {
     position: relative;
 
+  }
+
+  .title {
+    /* font-weight: bold;
+    font-family: 'impact';
+    font-size: 24;
+    color: goldenrod;
+    text-shadow: darkcyan 5px 4px 0;
+    background-color: dodgerblue; */
+
+    color: #FFFFFF;
+background: #000f31;
+text-shadow: 0 0 10px #FFFFFF;
+color: #FFFFFF;
+background: #020a38;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  .highscores {
+    font-size: medium;
+    color: goldenrod;
+  }
+
+  .scoreboard {
+    background-color: gray;
+  }
+
+  .well {
+    color: goldenrod;
   }
