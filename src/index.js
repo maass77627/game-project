@@ -12,6 +12,7 @@ var jellyfish;
 var gfish;
 var bubble;
 var bubbleSound;
+var score;
 //var psy;
 
 function startGame() {
@@ -28,7 +29,8 @@ function startGame() {
     jellyfish = new component(100, 100, "jellyfish.png", 900, 0, "image");
     gfish = new component(60, 60, "gfish.png", 900, 225, "image");
     bubble = new component(60, 60, "bubbles.png", 500, 225, "image");
-   bubbleSound = new sound("pop.mp3");
+    bubbleSound = new sound("pop.mp3");
+    score = new component(100, 100, yellow, 0, 650, "text")
    // psy = new component(60, 60, "psy.png", 400, 330, "image");
  
  
@@ -69,7 +71,8 @@ var myGameArea = {
         this.speedX = 0;
         this.speedY = 0;    
         this.x = x;
-        this.y = y;    
+        this.y = y; 
+        //this.color = color;  
         this.update = function() {
             ctx = myGameArea.context;
             if (type == "image" || type == "background") {
@@ -164,6 +167,8 @@ function updateGameArea() {
     flowers.speedX = -1;
     flowers.newPos();
     flowers.update();
+
+    score.update();
    
 }
 
